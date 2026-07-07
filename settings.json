@@ -1,5 +1,5 @@
 {
-    // Theme settings 
+    //  Theme settings 
     "workbench.colorTheme": "Tokyo Night Storm",
     "workbench.browser.searchEngine": "google",
     "workbench.browser.showInTitleBar": true,
@@ -55,32 +55,33 @@
         "notificationCenterHeader.background": "#1e1e1ee6",
         "menu.background": "#1e1e1ee6"
     },
-    // Animation
+    // Vibrancy
+    "vscode_vibrancy.opacity": -0.2,
+    "vscode_vibrancy.theme": "Tokyo Night Storm",
+    //  Animation
     "animations.Enabled": true,
-    // Terminal settings
+    //  Terminal settings
     "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code'",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontLigatures.enabled": true,
-    // Font settings
+    //  Font settings
     "editor.fontFamily": "'JetBrains Mono', 'Fira Code'",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.lineHeight": 22,
-    // Code editing settings
+    //  Code editing settings
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "editor.renderWhitespace": "boundary",
     "editor.cursorBlinking": "smooth",
-    // Indent Rainbow   
+    //  Indent Rainbow   
     "indentRainbow.colors": [
         "rgba(255,255,255,0.03)",
         "rgba(255,255,255,0.06)",
         "rgba(255,255,255,0.09)",
         "rgba(255,255,255,0.12)"
     ],
-    "vscode_vibrancy.opacity": -0.1,
-    // "vscode_vibrancy.theme": "Default Dark",
-    // Error Lens
+    //  Error Lens
     "errorLens.enabledDiagnosticLevels": [
         "error" // "warning"
     ],
@@ -90,11 +91,11 @@
     "errorLens.messageMaxChars": 200,
     "errorLens.gutterIconsEnabled": true,
     "errorLens.statusBarIconsEnabled": true,
-    // Custom CSS and JS Loader
+    //  Custom CSS and JS Loader
     "vscode_custom_css.imports": [
         "file:///Users/watsonliu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
     ],
-    // Pylance
+    //  Pylance
     "python.analysis.typeCheckingMode": "basic",
     "window.titleBarStyle": "custom",
     "terminal.integrated.gpuAcceleration": "off",
@@ -112,5 +113,6 @@
         "~/.claude/rules": true
     },
     "terminal.integrated.initialHint": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "window.controlsStyle": "custom"
 }
