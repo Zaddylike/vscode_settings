@@ -1,9 +1,12 @@
 {
-    //  Theme Style
+    // 主題與圖示
     "workbench.colorTheme": "Tokyo Night Storm",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
+
+    // 介面顏色與透明度
     "workbench.colorCustomizations": {
+        // 透明背景：視窗、標題列與空白頁面
         "minimap.background": "#1e1e1e00",
         "editorGroup.emptyBackground": "#1e1e1e00",
         "welcomePage.background": "#1e1e1e00",
@@ -13,6 +16,8 @@
         "commandCenter.background": "#1e1e1e00",
         "window.activeBorder": "#1e1e1e00",
         "window.inactiveBorder": "#1e1e1e00",
+
+        // 編輯器、分頁與面板：透明背景
         "terminal.background": "#00000000",
         "editorPane.background": "#1a1b2600",
         "editorGroupHeader.tabsBackground": "#1a1b2600",
@@ -22,17 +27,23 @@
         "tab.activeBackground": "#1a1b2600",
         "tab.unfocusedActiveBackground": "#1a1b2600",
         "panel.background": "#1a1b2600",
+
+        // 工作區：半透明深藍灰
         "sideBar.background": "#1a1b2633",
         "sideBarTitle.background": "#1a1b2633",
         "activityBar.background": "#1a1b2633",
         "editor.background": "#1a1b2633",
         "tab.inactiveBackground": "#1a1b2633",
         "tab.unfocusedInactiveBackground": "#1a1b2633",
+
+        // Sticky Scroll：較不透明的深藍灰
         "editorStickyScroll.background": "#1a1b26bf",
         "editorStickyScrollGutter.background": "#1a1b26bf",
         "sideBarStickyScroll.background": "#1a1b26bf",
         "panelStickyScroll.background": "#1a1b26bf",
         "terminalStickyScroll.background": "#1a1b26bf",
+
+        // 彈出視窗、提示與選單
         "inlineChat.background": "#1a1b26e6",
         "editorWidget.background": "#1a1b26e6",
         "editorHoverWidget.background": "#1a1b26e6",
@@ -41,46 +52,57 @@
         "notificationCenterHeader.background": "#1a1b26e6",
         "menu.background": "#1a1b26e6",
         "quickInput.background": "#1a1b26e6",
+
+        // 一般輸入框
         "input.background": "#1a1b26"
     },
-    // Vibrancy
-    "vscode_vibrancy.opacity": 0.2, //0-1
+
+    // Vibrancy 效果
+    "vscode_vibrancy.opacity": 0.2, // 範圍：0–1
     "vscode_vibrancy.theme": "Tokyo Night Storm",
-    //  Animation
+
+    // 動畫
     "animations.Enabled": true,
-    //  Window
+
+    // 視窗
     "window.controlsStyle": "custom",
     "window.titleBarStyle": "custom",
     "window.systemColorTheme": "dark",
     "window.autoDetectColorScheme": false,
     "window.zoomLevel": 0,
-    //  Terminal settings
+
+    // 終端機字型與顯示
     "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code'",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.initialHint": false,
-    //  Font settings
+
+    // 編輯器字型與顯示
     "editor.fontFamily": "'JetBrains Mono', 'Fira Code'",
     "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "editor.lineHeight": 22,
-    //  Code editing settings
+
+    // 編輯器操作
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "editor.renderWhitespace": "boundary",
     "editor.cursorBlinking": "smooth",
-    //  Indent Rainbow   
+
+    // Indent Rainbow 縮排顏色
     "indentRainbow.colors": [
         "rgba(255,255,255,0.03)",
         "rgba(255,255,255,0.06)",
         "rgba(255,255,255,0.09)",
         "rgba(255,255,255,0.12)"
     ],
-    //  Browser
+
+    // 內建瀏覽器
     "workbench.browser.searchEngine": "google",
     "workbench.browser.showInTitleBar": true,
-    //  Error Lens
+
+    // Error Lens 錯誤提示
     "errorLens.enabledDiagnosticLevels": [
         // "warning",
         "error"
@@ -91,16 +113,20 @@
     "errorLens.messageMaxChars": 200,
     "errorLens.gutterIconsEnabled": true,
     "errorLens.statusBarIconsEnabled": true,
-    //  Custom CSS and JS Loader
+
+    // 自訂 CSS 與 JS 載入
     "vscode_custom_css.imports": [
         "file:///Users/watsonliu/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
     ],
-    //  Pylance
+
+    // Python
     "python.analysis.typeCheckingMode": "basic",
-    //  github-copilot
+
+    // GitHub Copilot
     "github.copilot.nextEditSuggestions.eagerness": "auto",
-    //  exploere
+
+    // 檔案總管確認設定
     "explorer.confirmDelete": false,
     "explorer.confirmPasteNative": false,
-    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDragAndDrop": false
 }
