@@ -1,72 +1,68 @@
 {
-    //  Theme settings 
+    //  Theme Style
     "workbench.colorTheme": "Tokyo Night Storm",
-    "workbench.browser.searchEngine": "google",
-    "workbench.browser.showInTitleBar": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.colorCustomizations": {
-        // Minimap
         "minimap.background": "#1e1e1e00",
-        // Editor
-        "editor.background": "#1e1e1e99",
-        "editorPane.background": "#1e1e1e00",
-        "editorGutter.background": "#1e1e1e00",
-        "editorStickyScroll.background": "#1e1e1e99",
-        "editorStickyScrollGutter.background": "#1e1e1e99",
-        // Empty / Welcome Page
         "editorGroup.emptyBackground": "#1e1e1e00",
         "welcomePage.background": "#1e1e1e00",
         "walkThrough.embeddedEditorBackground": "#1e1e1e00",
-        // Editor Group Header / Tabs
-        "editorGroupHeader.tabsBackground": "#1e1e1e00",
-        "editorGroupHeader.noTabsBackground": "#1e1e1e00",
-        "tab.activeBackground": "#1e1e1e00",
-        "tab.unfocusedActiveBackground": "#1e1e1e00",
-        "tab.inactiveBackground": "#1e1e1e99",
-        "tab.unfocusedInactiveBackground": "#1e1e1e99",
-        // Breadcrumb
-        "breadcrumb.background": "#1e1e1e00",
-        // Sidebar
-        "sideBar.background": "#1e1e1e99",
-        "sideBarTitle.background": "#1e1e1e99",
-        "sideBarStickyScroll.background": "#1e1e1e99",
-        // Activity Bar
-        "activityBar.background": "#1e1e1e99",
-        // Panel / Terminal
-        "panel.background": "#1e1e1e00",
-        "panelStickyScroll.background": "#1e1e1e00",
-        "terminal.background": "#00000000",
-        // Title Bar / Command Center
         "titleBar.activeBackground": "#1e1e1e00",
         "titleBar.inactiveBackground": "#1e1e1e00",
         "commandCenter.background": "#1e1e1e00",
-        // Window Border
         "window.activeBorder": "#1e1e1e00",
         "window.inactiveBorder": "#1e1e1e00",
-        // Popup / Widgets
-        "quickInput.background": "#1e1e1ee6",
-        "inlineChat.background": "#1e1e1ee6",
-        "editorWidget.background": "#1e1e1ee6",
-        "editorHoverWidget.background": "#1e1e1ee6",
-        "editorSuggestWidget.background": "#1e1e1ee6",
-        // Notification / Menu
-        "notifications.background": "#1e1e1ee6",
-        "notificationCenterHeader.background": "#1e1e1ee6",
-        "menu.background": "#1e1e1ee6"
+        "terminal.background": "#00000000",
+        "editorPane.background": "#1a1b2600",
+        "editorGroupHeader.tabsBackground": "#1a1b2600",
+        "editorGroupHeader.noTabsBackground": "#1a1b2600",
+        "breadcrumb.background": "#1a1b2600",
+        "editorGutter.background": "#1a1b2600",
+        "tab.activeBackground": "#1a1b2600",
+        "tab.unfocusedActiveBackground": "#1a1b2600",
+        "panel.background": "#1a1b2600",
+        "sideBar.background": "#1a1b2633",
+        "sideBarTitle.background": "#1a1b2633",
+        "activityBar.background": "#1a1b2633",
+        "editor.background": "#1a1b2633",
+        "tab.inactiveBackground": "#1a1b2633",
+        "tab.unfocusedInactiveBackground": "#1a1b2633",
+        "editorStickyScroll.background": "#1a1b26bf",
+        "editorStickyScrollGutter.background": "#1a1b26bf",
+        "sideBarStickyScroll.background": "#1a1b26bf",
+        "panelStickyScroll.background": "#1a1b26bf",
+        "terminalStickyScroll.background": "#1a1b26bf",
+        "inlineChat.background": "#1a1b26e6",
+        "editorWidget.background": "#1a1b26e6",
+        "editorHoverWidget.background": "#1a1b26e6",
+        "editorSuggestWidget.background": "#1a1b26e6",
+        "notifications.background": "#1a1b26e6",
+        "notificationCenterHeader.background": "#1a1b26e6",
+        "menu.background": "#1a1b26e6",
+        "quickInput.background": "#1a1b26e6",
+        "input.background": "#1a1b26"
     },
     // Vibrancy
-    "vscode_vibrancy.opacity": -0.2,
+    "vscode_vibrancy.opacity": 0.2, //0-1
     "vscode_vibrancy.theme": "Tokyo Night Storm",
     //  Animation
     "animations.Enabled": true,
+    //  Window
+    "window.controlsStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "window.systemColorTheme": "dark",
+    "window.autoDetectColorScheme": false,
+    "window.zoomLevel": 0,
     //  Terminal settings
     "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code'",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.initialHint": false,
     //  Font settings
     "editor.fontFamily": "'JetBrains Mono', 'Fira Code'",
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "editor.lineHeight": 22,
     //  Code editing settings
@@ -81,13 +77,17 @@
         "rgba(255,255,255,0.09)",
         "rgba(255,255,255,0.12)"
     ],
+    //  Browser
+    "workbench.browser.searchEngine": "google",
+    "workbench.browser.showInTitleBar": true,
     //  Error Lens
     "errorLens.enabledDiagnosticLevels": [
-        "error" // "warning"
+        // "warning",
+        "error"
     ],
     "errorLens.messageEnabled": true,
     "errorLens.messageBackgroundMode": "message",
-    "errorLens.messageTemplate": "$severity [$source:$code] $message",
+    "errorLens.messageTemplate": "$severity Msg: $message", // "$severity [$source:$code] $message",
     "errorLens.messageMaxChars": 200,
     "errorLens.gutterIconsEnabled": true,
     "errorLens.statusBarIconsEnabled": true,
@@ -97,22 +97,10 @@
     ],
     //  Pylance
     "python.analysis.typeCheckingMode": "basic",
-    "window.titleBarStyle": "custom",
-    "terminal.integrated.gpuAcceleration": "off",
-    "window.systemColorTheme": "dark",
-    "window.autoDetectColorScheme": false,
-    "settingsSync.ignoredExtensions": [],
-    "explorer.confirmDelete": false,
+    //  github-copilot
     "github.copilot.nextEditSuggestions.eagerness": "auto",
-    "liveServer.settings.donotShowInfoMsg": true,
+    //  exploere
+    "explorer.confirmDelete": false,
     "explorer.confirmPasteNative": false,
-    "chat.instructionsFilesLocations": {
-        ".github/instructions": true,
-        ".claude/rules": true,
-        "~/.copilot/instructions": true,
-        "~/.claude/rules": true
-    },
-    "terminal.integrated.initialHint": false,
     "explorer.confirmDragAndDrop": false,
-    "window.controlsStyle": "custom"
 }
